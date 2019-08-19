@@ -1,0 +1,77 @@
+GN: Speed Unit Conversion: Units = 2.5 * mph = 1.75 * kph
+GN: Format: He xV al ue (decimal value)
+GN: "heavy" carts: dk, koopa, wario, petey, king boo, parade
+GN: "not heavy" carts: all others
+00: Unknown - Always 43 C8 00 00 (400)
+04: Unknown - 41 A0 00 00 (20) if not heavy, 41 B0 00 00 (22) if heavy
+08: Unknown - Always C2 F0 00 00 (-120)
+0C: Unknown - 43 F0 00 00 (480) if not heavy, 43 FA 00 00 (500) if heavy
+10: Unknown - 41 50 00 00 (13) if not heavy, 41 70 00 00 (15) if heavy
+14: Unknown - C3 0C 00 00 (-140) if not heavy, C3 20 00 00 (-160) if heavy
+18: Unknown - 43 C8 00 00 (400) if not heavy, 43 D2 00 00 (420) if heavy
+1C: Unknown - 41 A0 00 00 (20) if not heavy, 41 B0 00 00 (22) if heavy
+20: Unknown - C2 F0 00 00 (-120) if not heavy, C3 0C 00 00 (-140) if heavy
+24: Unknown - Always 3F 19 99 9A (.6)
+28: Unknown - Always 3E 99 99 9A (.3)
+2C: Unknown - Always 00 00 00 00 (0)
+30: Unknown - Always 3F 80 00 00 (1) - koopajr is 3E CC CC CD (.8)
+34: Unknown - Always 3F 33 33 33 (.7) - koopajr is 3F 19 99 9A (.6)
+38: Unknown - Always 3E CC CC CD (.4) - koopajr is 3E 99 99 9A (.3)
+3C: Unknown - Always 00 00 00 00 (0)
+40: Unknown - Always 00 00 00 00 (0)
+44: Unknown - Always 00 00 00 00 (0)
+48: Unknown - Always 00 00 00 00 (0)
+4C: Unknown - Always 00 00 00 00 (0)
+50: Top Speed
+50: Values range from 136 Units to 144 Units, limit is 175 Units
+54: Weak Off Road Top Speed
+54: Applies to the yellow sand in DDD
+54: Values range from 116 Units to 124 Units
+54: Always 20 Units less than the Top Speed
+58: Medium Off Road Top Speed
+58: Applies to Sand/Grass/Mud areas
+58: Values range from 68 Units to 92 Units
+5C: Heavy Off Road Top Speed - Always 42 20 00 00 (40) 
+5C: Applies to reddish sand in DDD and underwater areas
+60: Unknown - Always 41 A0 00 00 
+64: First Acceleration Value
+64: Applies when starting from a standstill
+64: In game, the values range from .08 (heavier karts) to 3 (lighter karts)
+68: Unknown - Always 3D 23 D7 0A (.04)
+6C: Unknown - Always 41 88 00 00 (17)
+70: Unknown - Always 3F 80 00 00 (1)
+74: Second Acceleration Value
+74: Applies when the kart is moving over than half of its max speed
+74: Values are either .005 or .01
+78: Unknown - Always 3D CC CC CD (.1)
+7C: Unknown - Always 3C A3 D7 0A (.02)
+80: Frames of Acceleration
+80: Either 10 (heavy karts), 20 (medium karts), or 30 (light karts + parade kart)
+84: Weight
+84: Values range from 1 to 3
+88: Unknown - Always 00 00 00 00 (0)
+8C: Unknown - Always 00 00 00 00 (0) 
+90: Unknown - Always 00 00 00 00 (0)
+94: Unknown - Always 00 00 00 00 (0)
+98: Unknown - Always 3F 33 33 33 (.7)
+9C: Unknown - Always 00 00 00 00 (0)
+A0: Unknown - All fall within 4-5, see below
+A4: Unknown - Always 45 3B 80 00  (3000)
+A8: Unknown - Always 00 000 00 00 (0)
+AC: Unknown - 3F 80 00 00 (1) when fullsize, 3F 33 33 33 (.7) when mini
+AC: Does not control the size of the kart
+B0: Unknown - Always 3F 80 00 00 (1)
+B4: Unknown - All fall within .8 and 3, see below 
+B8: Unknown - Always 00 00 00 00 (0)
+BC: Unknown - Always 00 00 00 00 (0)
+C0: Unknown - Always 00 00 00 00 (0)
+C4: Unknown - Always 00 00 00 00 (0)
+C8: Unknown - Always 00 00 00 00 (0)
+CC: Unknown - Always 00 00 00 00 (0)
+D0: Unknown - Always 00 00 00 00 (0)
+D4: Unknown - Always 00 00 00 00 (0)
+D8: Unknown - Always 00 00 00 00 (0)
+DC: Unknown - Always 00 00 00 00 (0)
+E0: Unknown - Always 00 00 00 00 (0)
+E4: Unknown - Always 3F 80 00 00 (1)
+E8: Unknown - Always 00 00 00 00 (0)

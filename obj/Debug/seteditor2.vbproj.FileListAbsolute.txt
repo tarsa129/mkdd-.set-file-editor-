@@ -1,0 +1,13 @@
+C:\Users\sheehant1\source\repos\seteditor2\bin\Debug\seteditor2.exe.config
+C:\Users\sheehant1\source\repos\seteditor2\bin\Debug\seteditor2.exe
+C:\Users\sheehant1\source\repos\seteditor2\bin\Debug\seteditor2.pdb
+C:\Users\sheehant1\source\repos\seteditor2\bin\Debug\seteditor2.xml
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.vbprojAssemblyReference.cache
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.Resources.resources
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.vbproj.GenerateResource.cache
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.vbproj.CoreCompileInputs.cache
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.exe
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.xml
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.pdb
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.Form1.resources
+C:\Users\sheehant1\source\repos\seteditor2\obj\Debug\seteditor2.Documentation.resources

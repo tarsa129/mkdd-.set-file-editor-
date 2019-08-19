@@ -1,0 +1,93 @@
+https://www.mariowiki.com/Mario_Kart:_Double_Dash!! asdf asdf
+
+"heavy" carts: dk, koopa, wario, petey, king boo, parade
+"not heavy" carts: all others
+
+00: always 43 C8 00 00 (67)
+04: 41 A0 00 00 (20) if not heavy, 41 B0 00 00 (22) if heavy
+08: always C2 F0 00 00 (-120)
+0C: 43 F0 00 00 (480) if not heavy, 43 FA 00 00 (500) if heavy
+10: 41 50 00 00 (13) if not heavy, 41 70 00 00 (15) if heavy
+14: C3 0C 00 00 (-140) if not heavy, C3 20 00 00 (-160) if heavy
+18: 43 C8 00 00 (400) if not heavy, 43 D2 00 00 (420) if heavy
+1C: 41 A0 00 00 (20) if not heavy, 41 B0 00 00 (22) if heavy
+20: C2 F0 00 00 (-120) if not heavy, C3 0C 00 00 (-140) if heavy
+24: always 3F 19 99 9A (.6)
+28: always 3E 99 99 9A (.3)
+2C: always 00 00 00 00
+30: always 3F 80 00 00 (1) - koopajr is 3E CC CC CD (.8)
+34: always 3F 33 33 33 (.7) - koopajr is 3F 19 99 9A (.6)
+38: always 3E CC CC CD (.4) - koopajr is 3E 99 99 9A (.3)
+3C: always 00 00 00 00
+40: always 00 00 00 00
+44: always 00 00 00 00
+48: always 00 00 00 00
+4C: always 00 00 00 00
+50: top speed (mph * 2.5)
+54: weak off road (mph * 2.5)
+58: medium off road (mph * 2.5)
+5C: Heavy off-read: (underwater/reddish sand in ddd) Always 42 20 00 00 (40) 
+60: Always 41 A0 00 00 (20 units = 8 mph) 
+65: first acceleration value
+68: always 3D 23 D7 0A (.04)
+6C: always 41 88 00 00  (17)
+70: always 3F 80 00 00 (1)
+74: second acceleration value
+78: always 3D CC CC CD (.1)
+7C: always 3C A3 D7 0A (.02)
+80: frames of acc
+84: weight
+88: always 00 00 00 00
+8C: always 00 00 00 00
+90: always 00 00 00 00
+94: always 00 00 00 00
+98: always 3F 33 33 33 (.7)
+9C: always 00 00 00 00
+A0: unknown - all fall within 4-5, see below
+A4: always 45 3B 80 00  (3000)
+A8: always 00 000 00 00
+AC: 3F 80 00 00 (1) when full, 3F 33 33 33 (.7) when mini, seems to be a scale value
+B0: always 3F 80 00 00 (1)
+B4: unknown - all fall within .8 and 3, see below 
+B8: always 00 00 00 00
+BC: always 00 00 00 00
+C0: always 00 00 00 00
+C4: always 00 00 00 00
+C8: always 00 00 00 00
+CC: always 00 00 00 00
+D0: always 00 00 00 00
+D4: always 00 00 00 00
+D8: always 00 00 00 00
+DC: always 00 00 00 00
+E0: always 00 00 00 00
+E4: always 3F 80 00 00 (1)
+E8: always 00 00 00 00
+
+chara: a0-, b4-, values:
+bbmar: 5.0, 2.0, 
+bblui: 5.0, 2.0, 
+nokon: 4.0, 2.0, 
+patap: 4.0, 2.0, 
+diddy: 5.0, 0.9, 
+bowjr: 5.0, 0.8, 
+mtoad: 5.0, 3.0, 
+waifu: 5.0, 3.0, 
+mario: 4.5, 1.0, 
+luigi: 4.5, 1.0, 
+peach: 5.0, 1.5, 
+daisy: 5.0, 1.5, 
+yoshi: 4.5, 1.0, 
+birdo: 4.5, 1.0, 
+walui: 4.5, 1.0, 
+wario: 5.0, 1.0, 
+bigdk: 5.0, 0.9, 
+koopa: 5.0, 0.9, 
+petey: 5.0, 0.9, 
+kiboo: 5.0, 0.9, 
+parad: 5.0, 1.0, 
+
+
+
+
+
+
