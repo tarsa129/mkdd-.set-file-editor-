@@ -55,13 +55,13 @@ GN: "not heavy" carts: all others
 94: Unknown - Always 00 00 00 00 (0)
 98: Unknown - Always 3F 33 33 33 (.7)
 9C: Unknown - Always 00 00 00 00 (0)
-A0: Unknown - All fall within 4-5, see below
+A0: Roll - All fall within 4-5, see below
 A4: Unknown - Always 45 3B 80 00  (3000)
 A8: Unknown - Always 00 000 00 00 (0)
 AC: Unknown - 3F 80 00 00 (1) when fullsize, 3F 33 33 33 (.7) when mini
 AC: Does not control the size of the kart
 B0: Unknown - Always 3F 80 00 00 (1)
-B4: Unknown - All fall within .8 and 3, see below 
+B4: Steer - All fall within .8 and 3, see below 
 B8: Unknown - Always 00 00 00 00 (0)
 BC: Unknown - Always 00 00 00 00 (0)
 C0: Unknown - Always 00 00 00 00 (0)
