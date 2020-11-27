@@ -49,7 +49,7 @@
             AddHandler lbl.Click, AddressOf InfoStuff.lblClicked
         Next
     End Sub
-    Private Sub DocumentationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles mnuDocu.Click
+    Private Sub DocumentationToolStripMenuItem_Click(sender As Object, e As EventArgs)
         Documentation.Show()
     End Sub
     Private Sub Radkph_CheckedChanged(sender As Object, e As EventArgs) Handles radUnits.CheckedChanged, radmph.CheckedChanged, radkph.CheckedChanged
@@ -64,9 +64,5 @@
     Private Sub SourceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles mnuSource.Click
         Process.Start("https://www.mariowiki.com/Mario_Kart:_Double_Dash!!#Actual_stats")
     End Sub
-    Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Close()
-    End Sub
-
 
 End Class

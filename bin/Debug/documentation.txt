@@ -3,16 +3,16 @@ https://www.mariowiki.com/Mario_Kart:_Double_Dash!!
 "heavy" carts: dk, koopa, wario, petey, king boo, parade
 "not heavy" carts: all others
 
-00: always 43 C8 00 00 (400)
-04: 41 A0 00 00 (20) if not heavy, 41 B0 00 00 (22) if heavy
-08: always C2 F0 00 00 (-120)
-0C: 43 F0 00 00 (480) if not heavy, 43 FA 00 00 (500) if heavy
-10: 41 50 00 00 (13) if not heavy, 41 70 00 00 (15) if heavy
-14: C3 0C 00 00 (-140) if not heavy, C3 20 00 00 (-160) if heavy
-18: 43 C8 00 00 (400) if not heavy, 43 D2 00 00 (420) if heavy
-1C: 41 A0 00 00 (20) if not heavy, 41 B0 00 00 (22) if heavy
-20: C2 F0 00 00 (-120) if not heavy, C3 0C 00 00 (-140) if heavy
-24: always 3F 19 99 9A (.6)
+00: How far behind the camera is from the kart - 1 player mode
+04: Angle of viewing: 100 is top-down, 0 is horizontal - 1 player mode
+08: How far under the kart the camera is - 1 player mode 
+0C: How far behind the camera is from the kart - 2 player mode
+10: Angle of viewing: 100 is top-down, 0 is horizontal - 2 player mode
+14: How far under the kart the camera is - 2 player mode 
+18: How far behind the camera is from the kart - 3/4 player mode
+1C: Angle of viewing: 100 is top-down, 0 is horizontal - 3/4 player mode
+20: How far under the kart the camera is - 3/4 player mode 
+24: always 3F 19 99 9A (.6) - appears to only be used for 1p mode
 28: always 3E 99 99 9A (.3)
 2C: always 00 00 00 00
 30: always 3F 80 00 00 (1) - koopajr is 3E CC CC CD (.8)
