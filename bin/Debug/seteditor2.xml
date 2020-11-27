@@ -22,10 +22,5 @@ seteditor2
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:seteditor2.My.Resources.Resources.babyluigi">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 </members>
 </doc>

@@ -17,7 +17,6 @@ C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\bin\Debug\seteditor2.pdb
 C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\bin\Debug\seteditor2.xml
 C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\obj\Debug\seteditor2.vbprojAssemblyReference.cache
 C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\obj\Debug\seteditor2.Form1.resources
-C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\obj\Debug\seteditor2.Documentation.resources
 C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\obj\Debug\seteditor2.Resources.resources
 C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\obj\Debug\seteditor2.vbproj.GenerateResource.cache
 C:\Users\sheeh\source\repos\mkdd-.set-file-editor-\obj\Debug\seteditor2.exe
