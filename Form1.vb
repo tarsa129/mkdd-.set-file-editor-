@@ -49,9 +49,6 @@
             AddHandler lbl.Click, AddressOf InfoStuff.lblClicked
         Next
     End Sub
-    Private Sub DocumentationToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        Documentation.Show()
-    End Sub
     Private Sub Radkph_CheckedChanged(sender As Object, e As EventArgs) Handles radUnits.CheckedChanged, radmph.CheckedChanged, radkph.CheckedChanged
         Call ObjectStuff.dealwithunits()
     End Sub
