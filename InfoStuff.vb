@@ -49,6 +49,9 @@ Public Class InfoStuff
         Else
             Dim numind As Integer = Val(lookup) * 4
             Dim strind As String = Hex(numind)
+            If Len(strind) = 1 Then
+                strind = "0" & strind
+            End If
             Return strind
         End If
     End Function

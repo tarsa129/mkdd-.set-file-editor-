@@ -14,7 +14,7 @@
         For i = 0 To names.Length - 1
             If FileStuff.filename.Contains(names(i)) Then
                 Dim imageid As String = names(i).Replace("_", "")
-                'Me.kartpic.Image = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory & "Images\" & imageid & ".png")
+
                 found = True
                 Exit For
             End If
@@ -36,16 +36,25 @@
         For Each tb As TextBox In grpKnown.Controls.OfType(Of TextBox)()
             AddHandler tb.TextChanged, AddressOf ObjectStuff.textchanged
         Next
+        For Each tb As TextBox In grpCamera.Controls.OfType(Of TextBox)()
+            AddHandler tb.TextChanged, AddressOf ObjectStuff.textchanged
+        Next
         For Each tb As TextBox In grpAll.Controls.OfType(Of TextBox)()
             AddHandler tb.Click, AddressOf ObjectStuff.txtclicked
         Next
         For Each tb As TextBox In grpKnown.Controls.OfType(Of TextBox)()
             AddHandler tb.Click, AddressOf ObjectStuff.txtclicked
         Next
+        For Each tb As TextBox In grpCamera.Controls.OfType(Of TextBox)()
+            AddHandler tb.Click, AddressOf ObjectStuff.txtclicked
+        Next
         For Each lbl As Label In grpAll.Controls.OfType(Of Label)()
             AddHandler lbl.Click, AddressOf InfoStuff.lblClicked
         Next
         For Each lbl As Label In grpKnown.Controls.OfType(Of Label)()
+            AddHandler lbl.Click, AddressOf InfoStuff.lblClicked
+        Next
+        For Each lbl As Label In grpCamera.Controls.OfType(Of Label)()
             AddHandler lbl.Click, AddressOf InfoStuff.lblClicked
         Next
     End Sub

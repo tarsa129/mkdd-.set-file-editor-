@@ -35,13 +35,6 @@
             txtspeeds(i).Text = Math.Round(DataStuff.floats(i + 20) / conv, 5)
         Next
     End Sub
-    Public Shared Sub dealwithKnown()
-        Dim txtknown() As TextBox = {Form1.txt20, Form1.txt21, Form1.txt22, Form1.txt23, Form1.txt25, Form1.txt29, Form1.txt32, Form1.txt33}
-        For Each tb In txtknown
-            Dim index As Integer = CInt(tb.Name.Substring(tb.Name.Length - 2))
-            tb.Text = DataStuff.floats(index)
-        Next
-    End Sub
     Public Shared Sub MakeAllUsable()
         For Each rad As RadioButton In Form1.grpSpeedUnits.Controls.OfType(Of RadioButton)
             rad.Enabled = True
@@ -56,7 +49,13 @@
             Dim floatindex As Integer = Val(tb.Name.Substring(tb.Name.Length - 2, 2))
             tb.Text = DataStuff.floats(floatindex)
         Next
+        For Each tb As TextBox In Form1.grpCamera.Controls.OfType(Of TextBox)
+            tb.ReadOnly = False
+            Dim floatindex As Integer = Val(tb.Name.Substring(tb.Name.Length - 2, 2))
+            tb.Text = DataStuff.floats(floatindex)
+        Next
         Form1.grpKnown.Enabled = True
+        Form1.grpCamera.Enabled = True
         Form1.grpAll.Enabled = True
         Form1.txtInfo.Enabled = True
         Form1.txtFileContents.Enabled = True
@@ -94,7 +93,7 @@
 
                 If (Not (lastChar = "." Or lastTwo = ".0")) Then
                     Call dealwithunits()
-                    Call dealwithKnown()
+                    'Call dealwithKnown()
                     DataStuff.updateValues()
                 End If
             End If

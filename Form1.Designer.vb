@@ -58,19 +58,10 @@ Partial Class Form1
         Me.lblinfoGN = New System.Windows.Forms.Label()
         Me.txtFileContents = New System.Windows.Forms.RichTextBox()
         Me.grpKnown = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txt45 = New System.Windows.Forms.TextBox()
+        Me.txt40 = New System.Windows.Forms.TextBox()
         Me.lblSteer45 = New System.Windows.Forms.Label()
         Me.lblRoll40 = New System.Windows.Forms.Label()
-        Me.lbl00 = New System.Windows.Forms.Label()
-        Me.lbl01 = New System.Windows.Forms.Label()
-        Me.lbl02 = New System.Windows.Forms.Label()
-        Me.lbl03 = New System.Windows.Forms.Label()
-        Me.lbl04 = New System.Windows.Forms.Label()
-        Me.lbl05 = New System.Windows.Forms.Label()
-        Me.lbl06 = New System.Windows.Forms.Label()
-        Me.lbl07 = New System.Windows.Forms.Label()
-        Me.lbl08 = New System.Windows.Forms.Label()
         Me.lbl09 = New System.Windows.Forms.Label()
         Me.lbl10 = New System.Windows.Forms.Label()
         Me.lbl11 = New System.Windows.Forms.Label()
@@ -85,29 +76,23 @@ Partial Class Form1
         Me.txt42 = New System.Windows.Forms.TextBox()
         Me.txt41 = New System.Windows.Forms.TextBox()
         Me.txt43 = New System.Windows.Forms.TextBox()
-        Me.txt40 = New System.Windows.Forms.TextBox()
         Me.txt39 = New System.Windows.Forms.TextBox()
         Me.txt38 = New System.Windows.Forms.TextBox()
         Me.txt36 = New System.Windows.Forms.TextBox()
         Me.txt35 = New System.Windows.Forms.TextBox()
         Me.txt34 = New System.Windows.Forms.TextBox()
-        Me.txt33 = New System.Windows.Forms.TextBox()
-        Me.txt32 = New System.Windows.Forms.TextBox()
         Me.txt31 = New System.Windows.Forms.TextBox()
         Me.txt30 = New System.Windows.Forms.TextBox()
         Me.lbl44 = New System.Windows.Forms.Label()
         Me.lbl43 = New System.Windows.Forms.Label()
         Me.lbl42 = New System.Windows.Forms.Label()
         Me.lbl41 = New System.Windows.Forms.Label()
-        Me.lbl40 = New System.Windows.Forms.Label()
         Me.lbl39 = New System.Windows.Forms.Label()
         Me.lbl38 = New System.Windows.Forms.Label()
         Me.lbl37 = New System.Windows.Forms.Label()
         Me.lbl36 = New System.Windows.Forms.Label()
         Me.lbl35 = New System.Windows.Forms.Label()
         Me.lbl34 = New System.Windows.Forms.Label()
-        Me.lbl33 = New System.Windows.Forms.Label()
-        Me.lbl32 = New System.Windows.Forms.Label()
         Me.lbl31 = New System.Windows.Forms.Label()
         Me.lbl30 = New System.Windows.Forms.Label()
         Me.txt52 = New System.Windows.Forms.TextBox()
@@ -122,7 +107,6 @@ Partial Class Form1
         Me.txt48 = New System.Windows.Forms.TextBox()
         Me.txt47 = New System.Windows.Forms.TextBox()
         Me.txt46 = New System.Windows.Forms.TextBox()
-        Me.txt45 = New System.Windows.Forms.TextBox()
         Me.lbl57 = New System.Windows.Forms.Label()
         Me.lbl56 = New System.Windows.Forms.Label()
         Me.lbl55 = New System.Windows.Forms.Label()
@@ -135,78 +119,56 @@ Partial Class Form1
         Me.lbl48 = New System.Windows.Forms.Label()
         Me.lbl47 = New System.Windows.Forms.Label()
         Me.lbl46 = New System.Windows.Forms.Label()
-        Me.lbl45 = New System.Windows.Forms.Label()
-        Me.txt22 = New System.Windows.Forms.TextBox()
-        Me.txt29 = New System.Windows.Forms.TextBox()
         Me.txt27 = New System.Windows.Forms.TextBox()
         Me.txt28 = New System.Windows.Forms.TextBox()
         Me.txt26 = New System.Windows.Forms.TextBox()
-        Me.txt25 = New System.Windows.Forms.TextBox()
         Me.txt24 = New System.Windows.Forms.TextBox()
-        Me.txt23 = New System.Windows.Forms.TextBox()
-        Me.txt21 = New System.Windows.Forms.TextBox()
-        Me.txt20 = New System.Windows.Forms.TextBox()
         Me.txt19 = New System.Windows.Forms.TextBox()
         Me.txt18 = New System.Windows.Forms.TextBox()
         Me.txt17 = New System.Windows.Forms.TextBox()
         Me.txt16 = New System.Windows.Forms.TextBox()
         Me.txt15 = New System.Windows.Forms.TextBox()
-        Me.lbl29 = New System.Windows.Forms.Label()
         Me.lbl28 = New System.Windows.Forms.Label()
         Me.lbl27 = New System.Windows.Forms.Label()
         Me.lbl26 = New System.Windows.Forms.Label()
-        Me.lbl25 = New System.Windows.Forms.Label()
         Me.lbl24 = New System.Windows.Forms.Label()
-        Me.lbl23 = New System.Windows.Forms.Label()
-        Me.lbl22 = New System.Windows.Forms.Label()
-        Me.lbl21 = New System.Windows.Forms.Label()
-        Me.lbl20 = New System.Windows.Forms.Label()
         Me.lbl19 = New System.Windows.Forms.Label()
         Me.lbl18 = New System.Windows.Forms.Label()
         Me.lbl17 = New System.Windows.Forms.Label()
         Me.lbl16 = New System.Windows.Forms.Label()
         Me.lbl15 = New System.Windows.Forms.Label()
-        Me.txt07 = New System.Windows.Forms.TextBox()
         Me.txt14 = New System.Windows.Forms.TextBox()
         Me.txt12 = New System.Windows.Forms.TextBox()
         Me.txt13 = New System.Windows.Forms.TextBox()
         Me.txt11 = New System.Windows.Forms.TextBox()
         Me.txt10 = New System.Windows.Forms.TextBox()
         Me.txt09 = New System.Windows.Forms.TextBox()
+        Me.txtInfo = New System.Windows.Forms.RichTextBox()
+        Me.grpCamera = New System.Windows.Forms.GroupBox()
         Me.txt08 = New System.Windows.Forms.TextBox()
+        Me.lbl08 = New System.Windows.Forms.Label()
+        Me.txt07 = New System.Windows.Forms.TextBox()
         Me.txt06 = New System.Windows.Forms.TextBox()
         Me.txt05 = New System.Windows.Forms.TextBox()
         Me.txt04 = New System.Windows.Forms.TextBox()
         Me.txt03 = New System.Windows.Forms.TextBox()
         Me.txt02 = New System.Windows.Forms.TextBox()
+        Me.lbl07 = New System.Windows.Forms.Label()
+        Me.lbl06 = New System.Windows.Forms.Label()
+        Me.lbl05 = New System.Windows.Forms.Label()
+        Me.lbl04 = New System.Windows.Forms.Label()
+        Me.lbl03 = New System.Windows.Forms.Label()
+        Me.lbl02 = New System.Windows.Forms.Label()
         Me.txt01 = New System.Windows.Forms.TextBox()
+        Me.lbl01 = New System.Windows.Forms.Label()
         Me.txt00 = New System.Windows.Forms.TextBox()
-        Me.txtInfo = New System.Windows.Forms.RichTextBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.lbl00 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.MenuStrip1.SuspendLayout()
         Me.grpSpeedUnits.SuspendLayout()
         Me.grpKnown.SuspendLayout()
         Me.grpAll.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.grpCamera.SuspendLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -216,13 +178,12 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.GripMargin = New System.Windows.Forms.Padding(2, 2, 0, 2)
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(40, 40)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.InfoToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(16, 5, 0, 5)
-        Me.MenuStrip1.Size = New System.Drawing.Size(2373, 58)
+        Me.MenuStrip1.Size = New System.Drawing.Size(2373, 60)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -230,7 +191,7 @@ Partial Class Form1
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuOpen, Me.mnuSave, Me.mnuSaveAs, Me.CloseToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(87, 48)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(87, 50)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'mnuOpen
@@ -267,7 +228,7 @@ Partial Class Form1
         '
         Me.InfoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuClearInfo, Me.mnuSource})
         Me.InfoToolStripMenuItem.Name = "InfoToolStripMenuItem"
-        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(94, 48)
+        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(94, 50)
         Me.InfoToolStripMenuItem.Text = "Info"
         '
         'mnuClearInfo
@@ -523,8 +484,8 @@ Partial Class Form1
         '
         'grpKnown
         '
-        Me.grpKnown.Controls.Add(Me.TextBox1)
-        Me.grpKnown.Controls.Add(Me.TextBox2)
+        Me.grpKnown.Controls.Add(Me.txt45)
+        Me.grpKnown.Controls.Add(Me.txt40)
         Me.grpKnown.Controls.Add(Me.lblSteer45)
         Me.grpKnown.Controls.Add(Me.lblRoll40)
         Me.grpKnown.Controls.Add(Me.txtweight33)
@@ -553,23 +514,23 @@ Partial Class Form1
         Me.grpKnown.TabStop = False
         Me.grpKnown.Text = "Common Values"
         '
-        'TextBox1
+        'txt45
         '
-        Me.TextBox1.Location = New System.Drawing.Point(357, 591)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox1.TabIndex = 23
+        Me.txt45.Location = New System.Drawing.Point(357, 591)
+        Me.txt45.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt45.Name = "txt45"
+        Me.txt45.ReadOnly = True
+        Me.txt45.Size = New System.Drawing.Size(153, 38)
+        Me.txt45.TabIndex = 23
         '
-        'TextBox2
+        'txt40
         '
-        Me.TextBox2.Location = New System.Drawing.Point(357, 529)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox2.TabIndex = 22
+        Me.txt40.Location = New System.Drawing.Point(357, 529)
+        Me.txt40.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt40.Name = "txt40"
+        Me.txt40.ReadOnly = True
+        Me.txt40.Size = New System.Drawing.Size(153, 38)
+        Me.txt40.TabIndex = 22
         '
         'lblSteer45
         '
@@ -590,96 +551,6 @@ Partial Class Form1
         Me.lblRoll40.Size = New System.Drawing.Size(73, 32)
         Me.lblRoll40.TabIndex = 24
         Me.lblRoll40.Text = "Roll:"
-        '
-        'lbl00
-        '
-        Me.lbl00.AutoSize = True
-        Me.lbl00.Location = New System.Drawing.Point(27, 38)
-        Me.lbl00.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl00.Name = "lbl00"
-        Me.lbl00.Size = New System.Drawing.Size(85, 32)
-        Me.lbl00.TabIndex = 82
-        Me.lbl00.Text = "0x00:"
-        '
-        'lbl01
-        '
-        Me.lbl01.AutoSize = True
-        Me.lbl01.Location = New System.Drawing.Point(27, 91)
-        Me.lbl01.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl01.Name = "lbl01"
-        Me.lbl01.Size = New System.Drawing.Size(85, 32)
-        Me.lbl01.TabIndex = 83
-        Me.lbl01.Text = "0x04:"
-        '
-        'lbl02
-        '
-        Me.lbl02.AutoSize = True
-        Me.lbl02.Location = New System.Drawing.Point(27, 143)
-        Me.lbl02.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl02.Name = "lbl02"
-        Me.lbl02.Size = New System.Drawing.Size(85, 32)
-        Me.lbl02.TabIndex = 84
-        Me.lbl02.Text = "0x08:"
-        '
-        'lbl03
-        '
-        Me.lbl03.AutoSize = True
-        Me.lbl03.Location = New System.Drawing.Point(24, 196)
-        Me.lbl03.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl03.Name = "lbl03"
-        Me.lbl03.Size = New System.Drawing.Size(89, 32)
-        Me.lbl03.TabIndex = 85
-        Me.lbl03.Text = "0x0C:"
-        '
-        'lbl04
-        '
-        Me.lbl04.AutoSize = True
-        Me.lbl04.Location = New System.Drawing.Point(27, 248)
-        Me.lbl04.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl04.Name = "lbl04"
-        Me.lbl04.Size = New System.Drawing.Size(85, 32)
-        Me.lbl04.TabIndex = 86
-        Me.lbl04.Text = "0x10:"
-        '
-        'lbl05
-        '
-        Me.lbl05.AutoSize = True
-        Me.lbl05.Location = New System.Drawing.Point(27, 300)
-        Me.lbl05.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl05.Name = "lbl05"
-        Me.lbl05.Size = New System.Drawing.Size(85, 32)
-        Me.lbl05.TabIndex = 87
-        Me.lbl05.Text = "0x14:"
-        '
-        'lbl06
-        '
-        Me.lbl06.AutoSize = True
-        Me.lbl06.Location = New System.Drawing.Point(27, 353)
-        Me.lbl06.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl06.Name = "lbl06"
-        Me.lbl06.Size = New System.Drawing.Size(85, 32)
-        Me.lbl06.TabIndex = 88
-        Me.lbl06.Text = "0x18:"
-        '
-        'lbl07
-        '
-        Me.lbl07.AutoSize = True
-        Me.lbl07.Location = New System.Drawing.Point(27, 405)
-        Me.lbl07.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl07.Name = "lbl07"
-        Me.lbl07.Size = New System.Drawing.Size(89, 32)
-        Me.lbl07.TabIndex = 89
-        Me.lbl07.Text = "0x1C:"
-        '
-        'lbl08
-        '
-        Me.lbl08.AutoSize = True
-        Me.lbl08.Location = New System.Drawing.Point(333, 41)
-        Me.lbl08.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl08.Name = "lbl08"
-        Me.lbl08.Size = New System.Drawing.Size(85, 32)
-        Me.lbl08.TabIndex = 90
-        Me.lbl08.Text = "0x20:"
         '
         'lbl09
         '
@@ -751,29 +622,23 @@ Partial Class Form1
         Me.grpAll.Controls.Add(Me.txt42)
         Me.grpAll.Controls.Add(Me.txt41)
         Me.grpAll.Controls.Add(Me.txt43)
-        Me.grpAll.Controls.Add(Me.txt40)
         Me.grpAll.Controls.Add(Me.txt39)
         Me.grpAll.Controls.Add(Me.txt38)
         Me.grpAll.Controls.Add(Me.txt36)
         Me.grpAll.Controls.Add(Me.txt35)
         Me.grpAll.Controls.Add(Me.txt34)
-        Me.grpAll.Controls.Add(Me.txt33)
-        Me.grpAll.Controls.Add(Me.txt32)
         Me.grpAll.Controls.Add(Me.txt31)
         Me.grpAll.Controls.Add(Me.txt30)
         Me.grpAll.Controls.Add(Me.lbl44)
         Me.grpAll.Controls.Add(Me.lbl43)
         Me.grpAll.Controls.Add(Me.lbl42)
         Me.grpAll.Controls.Add(Me.lbl41)
-        Me.grpAll.Controls.Add(Me.lbl40)
         Me.grpAll.Controls.Add(Me.lbl39)
         Me.grpAll.Controls.Add(Me.lbl38)
         Me.grpAll.Controls.Add(Me.lbl37)
         Me.grpAll.Controls.Add(Me.lbl36)
         Me.grpAll.Controls.Add(Me.lbl35)
         Me.grpAll.Controls.Add(Me.lbl34)
-        Me.grpAll.Controls.Add(Me.lbl33)
-        Me.grpAll.Controls.Add(Me.lbl32)
         Me.grpAll.Controls.Add(Me.lbl31)
         Me.grpAll.Controls.Add(Me.lbl30)
         Me.grpAll.Controls.Add(Me.txt52)
@@ -788,7 +653,6 @@ Partial Class Form1
         Me.grpAll.Controls.Add(Me.txt48)
         Me.grpAll.Controls.Add(Me.txt47)
         Me.grpAll.Controls.Add(Me.txt46)
-        Me.grpAll.Controls.Add(Me.txt45)
         Me.grpAll.Controls.Add(Me.lbl57)
         Me.grpAll.Controls.Add(Me.lbl56)
         Me.grpAll.Controls.Add(Me.lbl55)
@@ -801,67 +665,36 @@ Partial Class Form1
         Me.grpAll.Controls.Add(Me.lbl48)
         Me.grpAll.Controls.Add(Me.lbl47)
         Me.grpAll.Controls.Add(Me.lbl46)
-        Me.grpAll.Controls.Add(Me.lbl45)
-        Me.grpAll.Controls.Add(Me.txt22)
-        Me.grpAll.Controls.Add(Me.txt29)
         Me.grpAll.Controls.Add(Me.txt27)
         Me.grpAll.Controls.Add(Me.txt28)
         Me.grpAll.Controls.Add(Me.txt26)
-        Me.grpAll.Controls.Add(Me.txt25)
         Me.grpAll.Controls.Add(Me.txt24)
-        Me.grpAll.Controls.Add(Me.txt23)
-        Me.grpAll.Controls.Add(Me.txt21)
-        Me.grpAll.Controls.Add(Me.txt20)
         Me.grpAll.Controls.Add(Me.txt19)
         Me.grpAll.Controls.Add(Me.txt18)
         Me.grpAll.Controls.Add(Me.txt17)
         Me.grpAll.Controls.Add(Me.txt16)
         Me.grpAll.Controls.Add(Me.txt15)
-        Me.grpAll.Controls.Add(Me.lbl29)
         Me.grpAll.Controls.Add(Me.lbl28)
         Me.grpAll.Controls.Add(Me.lbl27)
         Me.grpAll.Controls.Add(Me.lbl26)
-        Me.grpAll.Controls.Add(Me.lbl25)
         Me.grpAll.Controls.Add(Me.lbl24)
-        Me.grpAll.Controls.Add(Me.lbl23)
-        Me.grpAll.Controls.Add(Me.lbl22)
-        Me.grpAll.Controls.Add(Me.lbl21)
-        Me.grpAll.Controls.Add(Me.lbl20)
         Me.grpAll.Controls.Add(Me.lbl19)
         Me.grpAll.Controls.Add(Me.lbl18)
         Me.grpAll.Controls.Add(Me.lbl17)
         Me.grpAll.Controls.Add(Me.lbl16)
         Me.grpAll.Controls.Add(Me.lbl15)
-        Me.grpAll.Controls.Add(Me.txt07)
         Me.grpAll.Controls.Add(Me.txt14)
         Me.grpAll.Controls.Add(Me.txt12)
         Me.grpAll.Controls.Add(Me.txt13)
         Me.grpAll.Controls.Add(Me.txt11)
         Me.grpAll.Controls.Add(Me.txt10)
         Me.grpAll.Controls.Add(Me.txt09)
-        Me.grpAll.Controls.Add(Me.txt08)
-        Me.grpAll.Controls.Add(Me.txt06)
-        Me.grpAll.Controls.Add(Me.txt05)
-        Me.grpAll.Controls.Add(Me.txt04)
-        Me.grpAll.Controls.Add(Me.txt03)
-        Me.grpAll.Controls.Add(Me.txt02)
-        Me.grpAll.Controls.Add(Me.txt01)
-        Me.grpAll.Controls.Add(Me.txt00)
         Me.grpAll.Controls.Add(Me.lbl14)
         Me.grpAll.Controls.Add(Me.lbl13)
         Me.grpAll.Controls.Add(Me.lbl12)
         Me.grpAll.Controls.Add(Me.lbl11)
         Me.grpAll.Controls.Add(Me.lbl10)
         Me.grpAll.Controls.Add(Me.lbl09)
-        Me.grpAll.Controls.Add(Me.lbl08)
-        Me.grpAll.Controls.Add(Me.lbl07)
-        Me.grpAll.Controls.Add(Me.lbl06)
-        Me.grpAll.Controls.Add(Me.lbl05)
-        Me.grpAll.Controls.Add(Me.lbl04)
-        Me.grpAll.Controls.Add(Me.lbl03)
-        Me.grpAll.Controls.Add(Me.lbl02)
-        Me.grpAll.Controls.Add(Me.lbl01)
-        Me.grpAll.Controls.Add(Me.lbl00)
         Me.grpAll.Enabled = False
         Me.grpAll.Location = New System.Drawing.Point(0, 755)
         Me.grpAll.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
@@ -870,7 +703,7 @@ Partial Class Form1
         Me.grpAll.Size = New System.Drawing.Size(2373, 531)
         Me.grpAll.TabIndex = 22
         Me.grpAll.TabStop = False
-        Me.grpAll.Text = "All Values"
+        Me.grpAll.Text = "Uknown Values"
         '
         'txt58
         '
@@ -936,15 +769,6 @@ Partial Class Form1
         Me.txt43.Size = New System.Drawing.Size(153, 38)
         Me.txt43.TabIndex = 66
         '
-        'txt40
-        '
-        Me.txt40.Location = New System.Drawing.Point(1597, 31)
-        Me.txt40.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt40.Name = "txt40"
-        Me.txt40.ReadOnly = True
-        Me.txt40.Size = New System.Drawing.Size(153, 38)
-        Me.txt40.TabIndex = 63
-        '
         'txt39
         '
         Me.txt39.Location = New System.Drawing.Point(1304, 398)
@@ -989,24 +813,6 @@ Partial Class Form1
         Me.txt34.ReadOnly = True
         Me.txt34.Size = New System.Drawing.Size(153, 38)
         Me.txt34.TabIndex = 57
-        '
-        'txt33
-        '
-        Me.txt33.Location = New System.Drawing.Point(1304, 83)
-        Me.txt33.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt33.Name = "txt33"
-        Me.txt33.ReadOnly = True
-        Me.txt33.Size = New System.Drawing.Size(153, 38)
-        Me.txt33.TabIndex = 56
-        '
-        'txt32
-        '
-        Me.txt32.Location = New System.Drawing.Point(1304, 31)
-        Me.txt32.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt32.Name = "txt32"
-        Me.txt32.ReadOnly = True
-        Me.txt32.Size = New System.Drawing.Size(153, 38)
-        Me.txt32.TabIndex = 55
         '
         'txt31
         '
@@ -1065,16 +871,6 @@ Partial Class Form1
         Me.lbl41.Size = New System.Drawing.Size(88, 32)
         Me.lbl41.TabIndex = 123
         Me.lbl41.Text = "0xA4:"
-        '
-        'lbl40
-        '
-        Me.lbl40.AutoSize = True
-        Me.lbl40.Location = New System.Drawing.Point(1515, 38)
-        Me.lbl40.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl40.Name = "lbl40"
-        Me.lbl40.Size = New System.Drawing.Size(88, 32)
-        Me.lbl40.TabIndex = 122
-        Me.lbl40.Text = "0xA0:"
         '
         'lbl39
         '
@@ -1135,26 +931,6 @@ Partial Class Form1
         Me.lbl34.Size = New System.Drawing.Size(85, 32)
         Me.lbl34.TabIndex = 116
         Me.lbl34.Text = "0x88:"
-        '
-        'lbl33
-        '
-        Me.lbl33.AutoSize = True
-        Me.lbl33.Location = New System.Drawing.Point(1224, 91)
-        Me.lbl33.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl33.Name = "lbl33"
-        Me.lbl33.Size = New System.Drawing.Size(85, 32)
-        Me.lbl33.TabIndex = 115
-        Me.lbl33.Text = "0x84:"
-        '
-        'lbl32
-        '
-        Me.lbl32.AutoSize = True
-        Me.lbl32.Location = New System.Drawing.Point(1224, 36)
-        Me.lbl32.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl32.Name = "lbl32"
-        Me.lbl32.Size = New System.Drawing.Size(85, 32)
-        Me.lbl32.TabIndex = 114
-        Me.lbl32.Text = "0x80:"
         '
         'lbl31
         '
@@ -1284,15 +1060,6 @@ Partial Class Form1
         Me.txt46.Size = New System.Drawing.Size(153, 38)
         Me.txt46.TabIndex = 69
         '
-        'txt45
-        '
-        Me.txt45.Location = New System.Drawing.Point(1597, 293)
-        Me.txt45.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt45.Name = "txt45"
-        Me.txt45.ReadOnly = True
-        Me.txt45.Size = New System.Drawing.Size(153, 38)
-        Me.txt45.TabIndex = 68
-        '
         'lbl57
         '
         Me.lbl57.AutoSize = True
@@ -1413,34 +1180,6 @@ Partial Class Form1
         Me.lbl46.TabIndex = 128
         Me.lbl46.Text = "0xB8:"
         '
-        'lbl45
-        '
-        Me.lbl45.AutoSize = True
-        Me.lbl45.Location = New System.Drawing.Point(1512, 300)
-        Me.lbl45.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl45.Name = "lbl45"
-        Me.lbl45.Size = New System.Drawing.Size(88, 32)
-        Me.lbl45.TabIndex = 127
-        Me.lbl45.Text = "0xB4:"
-        '
-        'txt22
-        '
-        Me.txt22.Location = New System.Drawing.Point(731, 346)
-        Me.txt22.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt22.Name = "txt22"
-        Me.txt22.ReadOnly = True
-        Me.txt22.Size = New System.Drawing.Size(153, 38)
-        Me.txt22.TabIndex = 45
-        '
-        'txt29
-        '
-        Me.txt29.Location = New System.Drawing.Point(1021, 293)
-        Me.txt29.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt29.Name = "txt29"
-        Me.txt29.ReadOnly = True
-        Me.txt29.Size = New System.Drawing.Size(153, 38)
-        Me.txt29.TabIndex = 52
-        '
         'txt27
         '
         Me.txt27.Location = New System.Drawing.Point(1021, 188)
@@ -1468,15 +1207,6 @@ Partial Class Form1
         Me.txt26.Size = New System.Drawing.Size(153, 38)
         Me.txt26.TabIndex = 49
         '
-        'txt25
-        '
-        Me.txt25.Location = New System.Drawing.Point(1021, 83)
-        Me.txt25.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt25.Name = "txt25"
-        Me.txt25.ReadOnly = True
-        Me.txt25.Size = New System.Drawing.Size(153, 38)
-        Me.txt25.TabIndex = 48
-        '
         'txt24
         '
         Me.txt24.Location = New System.Drawing.Point(1021, 31)
@@ -1485,33 +1215,6 @@ Partial Class Form1
         Me.txt24.ReadOnly = True
         Me.txt24.Size = New System.Drawing.Size(153, 38)
         Me.txt24.TabIndex = 47
-        '
-        'txt23
-        '
-        Me.txt23.Location = New System.Drawing.Point(731, 398)
-        Me.txt23.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt23.Name = "txt23"
-        Me.txt23.ReadOnly = True
-        Me.txt23.Size = New System.Drawing.Size(153, 38)
-        Me.txt23.TabIndex = 46
-        '
-        'txt21
-        '
-        Me.txt21.Location = New System.Drawing.Point(731, 293)
-        Me.txt21.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt21.Name = "txt21"
-        Me.txt21.ReadOnly = True
-        Me.txt21.Size = New System.Drawing.Size(153, 38)
-        Me.txt21.TabIndex = 44
-        '
-        'txt20
-        '
-        Me.txt20.Location = New System.Drawing.Point(731, 241)
-        Me.txt20.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt20.Name = "txt20"
-        Me.txt20.ReadOnly = True
-        Me.txt20.Size = New System.Drawing.Size(153, 38)
-        Me.txt20.TabIndex = 43
         '
         'txt19
         '
@@ -1558,16 +1261,6 @@ Partial Class Form1
         Me.txt15.Size = New System.Drawing.Size(153, 38)
         Me.txt15.TabIndex = 38
         '
-        'lbl29
-        '
-        Me.lbl29.AutoSize = True
-        Me.lbl29.Location = New System.Drawing.Point(939, 300)
-        Me.lbl29.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl29.Name = "lbl29"
-        Me.lbl29.Size = New System.Drawing.Size(85, 32)
-        Me.lbl29.TabIndex = 111
-        Me.lbl29.Text = "0x74:"
-        '
         'lbl28
         '
         Me.lbl28.AutoSize = True
@@ -1598,16 +1291,6 @@ Partial Class Form1
         Me.lbl26.TabIndex = 108
         Me.lbl26.Text = "0x68:"
         '
-        'lbl25
-        '
-        Me.lbl25.AutoSize = True
-        Me.lbl25.Location = New System.Drawing.Point(939, 91)
-        Me.lbl25.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl25.Name = "lbl25"
-        Me.lbl25.Size = New System.Drawing.Size(85, 32)
-        Me.lbl25.TabIndex = 107
-        Me.lbl25.Text = "0x64:"
-        '
         'lbl24
         '
         Me.lbl24.AutoSize = True
@@ -1617,46 +1300,6 @@ Partial Class Form1
         Me.lbl24.Size = New System.Drawing.Size(85, 32)
         Me.lbl24.TabIndex = 106
         Me.lbl24.Text = "0x60:"
-        '
-        'lbl23
-        '
-        Me.lbl23.AutoSize = True
-        Me.lbl23.Location = New System.Drawing.Point(645, 405)
-        Me.lbl23.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl23.Name = "lbl23"
-        Me.lbl23.Size = New System.Drawing.Size(89, 32)
-        Me.lbl23.TabIndex = 105
-        Me.lbl23.Text = "0x5C:"
-        '
-        'lbl22
-        '
-        Me.lbl22.AutoSize = True
-        Me.lbl22.Location = New System.Drawing.Point(648, 353)
-        Me.lbl22.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl22.Name = "lbl22"
-        Me.lbl22.Size = New System.Drawing.Size(85, 32)
-        Me.lbl22.TabIndex = 104
-        Me.lbl22.Text = "0x58:"
-        '
-        'lbl21
-        '
-        Me.lbl21.AutoSize = True
-        Me.lbl21.Location = New System.Drawing.Point(648, 300)
-        Me.lbl21.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl21.Name = "lbl21"
-        Me.lbl21.Size = New System.Drawing.Size(85, 32)
-        Me.lbl21.TabIndex = 103
-        Me.lbl21.Text = "0x54:"
-        '
-        'lbl20
-        '
-        Me.lbl20.AutoSize = True
-        Me.lbl20.Location = New System.Drawing.Point(648, 248)
-        Me.lbl20.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.lbl20.Name = "lbl20"
-        Me.lbl20.Size = New System.Drawing.Size(85, 32)
-        Me.lbl20.TabIndex = 102
-        Me.lbl20.Text = "0x50:"
         '
         'lbl19
         '
@@ -1707,15 +1350,6 @@ Partial Class Form1
         Me.lbl15.Size = New System.Drawing.Size(89, 32)
         Me.lbl15.TabIndex = 97
         Me.lbl15.Text = "0x3C:"
-        '
-        'txt07
-        '
-        Me.txt07.Location = New System.Drawing.Point(112, 398)
-        Me.txt07.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt07.Name = "txt07"
-        Me.txt07.ReadOnly = True
-        Me.txt07.Size = New System.Drawing.Size(153, 38)
-        Me.txt07.TabIndex = 30
         '
         'txt14
         '
@@ -1771,78 +1405,6 @@ Partial Class Form1
         Me.txt09.Size = New System.Drawing.Size(153, 38)
         Me.txt09.TabIndex = 32
         '
-        'txt08
-        '
-        Me.txt08.Location = New System.Drawing.Point(416, 31)
-        Me.txt08.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt08.Name = "txt08"
-        Me.txt08.ReadOnly = True
-        Me.txt08.Size = New System.Drawing.Size(153, 38)
-        Me.txt08.TabIndex = 31
-        '
-        'txt06
-        '
-        Me.txt06.Location = New System.Drawing.Point(112, 346)
-        Me.txt06.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt06.Name = "txt06"
-        Me.txt06.ReadOnly = True
-        Me.txt06.Size = New System.Drawing.Size(153, 38)
-        Me.txt06.TabIndex = 29
-        '
-        'txt05
-        '
-        Me.txt05.Location = New System.Drawing.Point(112, 293)
-        Me.txt05.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt05.Name = "txt05"
-        Me.txt05.ReadOnly = True
-        Me.txt05.Size = New System.Drawing.Size(153, 38)
-        Me.txt05.TabIndex = 28
-        '
-        'txt04
-        '
-        Me.txt04.Location = New System.Drawing.Point(112, 241)
-        Me.txt04.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt04.Name = "txt04"
-        Me.txt04.ReadOnly = True
-        Me.txt04.Size = New System.Drawing.Size(153, 38)
-        Me.txt04.TabIndex = 27
-        '
-        'txt03
-        '
-        Me.txt03.Location = New System.Drawing.Point(112, 188)
-        Me.txt03.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt03.Name = "txt03"
-        Me.txt03.ReadOnly = True
-        Me.txt03.Size = New System.Drawing.Size(153, 38)
-        Me.txt03.TabIndex = 26
-        '
-        'txt02
-        '
-        Me.txt02.Location = New System.Drawing.Point(112, 136)
-        Me.txt02.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt02.Name = "txt02"
-        Me.txt02.ReadOnly = True
-        Me.txt02.Size = New System.Drawing.Size(153, 38)
-        Me.txt02.TabIndex = 25
-        '
-        'txt01
-        '
-        Me.txt01.Location = New System.Drawing.Point(112, 83)
-        Me.txt01.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt01.Name = "txt01"
-        Me.txt01.ReadOnly = True
-        Me.txt01.Size = New System.Drawing.Size(153, 38)
-        Me.txt01.TabIndex = 24
-        '
-        'txt00
-        '
-        Me.txt00.Location = New System.Drawing.Point(112, 31)
-        Me.txt00.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.txt00.Name = "txt00"
-        Me.txt00.ReadOnly = True
-        Me.txt00.Size = New System.Drawing.Size(153, 38)
-        Me.txt00.TabIndex = 23
-        '
         'txtInfo
         '
         Me.txtInfo.Enabled = False
@@ -1854,214 +1416,214 @@ Partial Class Form1
         Me.txtInfo.TabIndex = 4
         Me.txtInfo.Text = ""
         '
-        'GroupBox1
+        'grpCamera
         '
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
-        Me.GroupBox1.Controls.Add(Me.TextBox7)
-        Me.GroupBox1.Controls.Add(Me.TextBox8)
-        Me.GroupBox1.Controls.Add(Me.TextBox9)
-        Me.GroupBox1.Controls.Add(Me.TextBox10)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.TextBox11)
-        Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.TextBox12)
-        Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Enabled = False
-        Me.GroupBox1.Location = New System.Drawing.Point(1117, 98)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.GroupBox1.Size = New System.Drawing.Size(544, 657)
-        Me.GroupBox1.TabIndex = 26
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Camera Values"
+        Me.grpCamera.Controls.Add(Me.txt08)
+        Me.grpCamera.Controls.Add(Me.lbl08)
+        Me.grpCamera.Controls.Add(Me.txt07)
+        Me.grpCamera.Controls.Add(Me.txt06)
+        Me.grpCamera.Controls.Add(Me.txt05)
+        Me.grpCamera.Controls.Add(Me.txt04)
+        Me.grpCamera.Controls.Add(Me.txt03)
+        Me.grpCamera.Controls.Add(Me.txt02)
+        Me.grpCamera.Controls.Add(Me.lbl07)
+        Me.grpCamera.Controls.Add(Me.lbl06)
+        Me.grpCamera.Controls.Add(Me.lbl05)
+        Me.grpCamera.Controls.Add(Me.lbl04)
+        Me.grpCamera.Controls.Add(Me.lbl03)
+        Me.grpCamera.Controls.Add(Me.lbl02)
+        Me.grpCamera.Controls.Add(Me.txt01)
+        Me.grpCamera.Controls.Add(Me.lbl01)
+        Me.grpCamera.Controls.Add(Me.txt00)
+        Me.grpCamera.Controls.Add(Me.lbl00)
+        Me.grpCamera.Enabled = False
+        Me.grpCamera.Location = New System.Drawing.Point(1117, 98)
+        Me.grpCamera.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.grpCamera.Name = "grpCamera"
+        Me.grpCamera.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.grpCamera.Size = New System.Drawing.Size(544, 657)
+        Me.grpCamera.TabIndex = 26
+        Me.grpCamera.TabStop = False
+        Me.grpCamera.Text = "Camera Values"
         '
-        'TextBox4
+        'txt08
         '
-        Me.TextBox4.Location = New System.Drawing.Point(357, 529)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox4.TabIndex = 22
+        Me.txt08.Location = New System.Drawing.Point(357, 529)
+        Me.txt08.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt08.Name = "txt08"
+        Me.txt08.ReadOnly = True
+        Me.txt08.Size = New System.Drawing.Size(153, 38)
+        Me.txt08.TabIndex = 22
         '
-        'Label2
+        'lbl08
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(95, 534)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(261, 32)
-        Me.Label2.TabIndex = 24
-        Me.Label2.Text = "3/4p Cam -Y Value:"
+        Me.lbl08.AutoSize = True
+        Me.lbl08.Location = New System.Drawing.Point(95, 534)
+        Me.lbl08.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl08.Name = "lbl08"
+        Me.lbl08.Size = New System.Drawing.Size(261, 32)
+        Me.lbl08.TabIndex = 24
+        Me.lbl08.Text = "3/4p Cam -Y Value:"
         '
-        'TextBox5
+        'txt07
         '
-        Me.TextBox5.Location = New System.Drawing.Point(357, 467)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ReadOnly = True
-        Me.TextBox5.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox5.TabIndex = 13
+        Me.txt07.Location = New System.Drawing.Point(357, 467)
+        Me.txt07.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt07.Name = "txt07"
+        Me.txt07.ReadOnly = True
+        Me.txt07.Size = New System.Drawing.Size(153, 38)
+        Me.txt07.TabIndex = 13
         '
-        'TextBox6
+        'txt06
         '
-        Me.TextBox6.Location = New System.Drawing.Point(357, 405)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.ReadOnly = True
-        Me.TextBox6.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox6.TabIndex = 12
+        Me.txt06.Location = New System.Drawing.Point(357, 405)
+        Me.txt06.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt06.Name = "txt06"
+        Me.txt06.ReadOnly = True
+        Me.txt06.Size = New System.Drawing.Size(153, 38)
+        Me.txt06.TabIndex = 12
         '
-        'TextBox7
+        'txt05
         '
-        Me.TextBox7.Location = New System.Drawing.Point(357, 343)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.ReadOnly = True
-        Me.TextBox7.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox7.TabIndex = 11
+        Me.txt05.Location = New System.Drawing.Point(357, 343)
+        Me.txt05.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt05.Name = "txt05"
+        Me.txt05.ReadOnly = True
+        Me.txt05.Size = New System.Drawing.Size(153, 38)
+        Me.txt05.TabIndex = 11
         '
-        'TextBox8
+        'txt04
         '
-        Me.TextBox8.Location = New System.Drawing.Point(357, 281)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.ReadOnly = True
-        Me.TextBox8.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox8.TabIndex = 10
+        Me.txt04.Location = New System.Drawing.Point(357, 281)
+        Me.txt04.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt04.Name = "txt04"
+        Me.txt04.ReadOnly = True
+        Me.txt04.Size = New System.Drawing.Size(153, 38)
+        Me.txt04.TabIndex = 10
         '
-        'TextBox9
+        'txt03
         '
-        Me.TextBox9.Location = New System.Drawing.Point(357, 219)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.ReadOnly = True
-        Me.TextBox9.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox9.TabIndex = 9
+        Me.txt03.Location = New System.Drawing.Point(357, 219)
+        Me.txt03.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt03.Name = "txt03"
+        Me.txt03.ReadOnly = True
+        Me.txt03.Size = New System.Drawing.Size(153, 38)
+        Me.txt03.TabIndex = 9
         '
-        'TextBox10
+        'txt02
         '
-        Me.TextBox10.Location = New System.Drawing.Point(357, 157)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.ReadOnly = True
-        Me.TextBox10.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox10.TabIndex = 8
+        Me.txt02.Location = New System.Drawing.Point(357, 157)
+        Me.txt02.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt02.Name = "txt02"
+        Me.txt02.ReadOnly = True
+        Me.txt02.Size = New System.Drawing.Size(153, 38)
+        Me.txt02.TabIndex = 8
         '
-        'Label3
+        'lbl07
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(25, 472)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(331, 32)
-        Me.Label3.TabIndex = 21
-        Me.Label3.Text = "3/4p Cam X Angle Scale:"
+        Me.lbl07.AutoSize = True
+        Me.lbl07.Location = New System.Drawing.Point(25, 472)
+        Me.lbl07.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl07.Name = "lbl07"
+        Me.lbl07.Size = New System.Drawing.Size(331, 32)
+        Me.lbl07.TabIndex = 21
+        Me.lbl07.Text = "3/4p Cam X Angle Scale:"
         '
-        'Label4
+        'lbl06
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(97, 410)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(259, 32)
-        Me.Label4.TabIndex = 20
-        Me.Label4.Text = "3/4p Cam -Z Value:"
+        Me.lbl06.AutoSize = True
+        Me.lbl06.Location = New System.Drawing.Point(97, 410)
+        Me.lbl06.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl06.Name = "lbl06"
+        Me.lbl06.Size = New System.Drawing.Size(259, 32)
+        Me.lbl06.TabIndex = 20
+        Me.lbl06.Text = "3/4p Cam -Z Value:"
         '
-        'Label5
+        'lbl05
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(119, 348)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(237, 32)
-        Me.Label5.TabIndex = 19
-        Me.Label5.Text = "2p Cam -Y Value:"
+        Me.lbl05.AutoSize = True
+        Me.lbl05.Location = New System.Drawing.Point(119, 348)
+        Me.lbl05.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl05.Name = "lbl05"
+        Me.lbl05.Size = New System.Drawing.Size(237, 32)
+        Me.lbl05.TabIndex = 19
+        Me.lbl05.Text = "2p Cam -Y Value:"
         '
-        'Label6
+        'lbl04
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(49, 286)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(307, 32)
-        Me.Label6.TabIndex = 18
-        Me.Label6.Text = "2p Cam X Angle Scale:"
+        Me.lbl04.AutoSize = True
+        Me.lbl04.Location = New System.Drawing.Point(49, 287)
+        Me.lbl04.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl04.Name = "lbl04"
+        Me.lbl04.Size = New System.Drawing.Size(307, 32)
+        Me.lbl04.TabIndex = 18
+        Me.lbl04.Text = "2p Cam X Angle Scale:"
         '
-        'Label7
+        'lbl03
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(121, 224)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(235, 32)
-        Me.Label7.TabIndex = 17
-        Me.Label7.Text = "2p Cam -Z Value:"
+        Me.lbl03.AutoSize = True
+        Me.lbl03.Location = New System.Drawing.Point(121, 224)
+        Me.lbl03.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl03.Name = "lbl03"
+        Me.lbl03.Size = New System.Drawing.Size(235, 32)
+        Me.lbl03.TabIndex = 17
+        Me.lbl03.Text = "2p Cam -Z Value:"
         '
-        'Label8
+        'lbl02
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(119, 162)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(237, 32)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "1p Cam -Y Value:"
+        Me.lbl02.AutoSize = True
+        Me.lbl02.Location = New System.Drawing.Point(119, 162)
+        Me.lbl02.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl02.Name = "lbl02"
+        Me.lbl02.Size = New System.Drawing.Size(237, 32)
+        Me.lbl02.TabIndex = 16
+        Me.lbl02.Text = "1p Cam -Y Value:"
         '
-        'TextBox11
+        'txt01
         '
-        Me.TextBox11.Location = New System.Drawing.Point(357, 95)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.ReadOnly = True
-        Me.TextBox11.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox11.TabIndex = 7
+        Me.txt01.Location = New System.Drawing.Point(357, 95)
+        Me.txt01.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt01.Name = "txt01"
+        Me.txt01.ReadOnly = True
+        Me.txt01.Size = New System.Drawing.Size(153, 38)
+        Me.txt01.TabIndex = 7
         '
-        'Label9
+        'lbl01
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(49, 100)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(307, 32)
-        Me.Label9.TabIndex = 15
-        Me.Label9.Text = "1p Cam X Angle Scale:"
+        Me.lbl01.AutoSize = True
+        Me.lbl01.Location = New System.Drawing.Point(49, 100)
+        Me.lbl01.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl01.Name = "lbl01"
+        Me.lbl01.Size = New System.Drawing.Size(307, 32)
+        Me.lbl01.TabIndex = 15
+        Me.lbl01.Text = "1p Cam X Angle Scale:"
         '
-        'TextBox12
+        'txt00
         '
-        Me.TextBox12.Location = New System.Drawing.Point(357, 33)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.ReadOnly = True
-        Me.TextBox12.Size = New System.Drawing.Size(153, 38)
-        Me.TextBox12.TabIndex = 6
+        Me.txt00.Location = New System.Drawing.Point(357, 33)
+        Me.txt00.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.txt00.Name = "txt00"
+        Me.txt00.ReadOnly = True
+        Me.txt00.Size = New System.Drawing.Size(153, 38)
+        Me.txt00.TabIndex = 6
         '
-        'Label10
+        'lbl00
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.CausesValidation = False
-        Me.Label10.Location = New System.Drawing.Point(121, 38)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(235, 32)
-        Me.Label10.TabIndex = 14
-        Me.Label10.Text = "1p Cam -Z Value:"
+        Me.lbl00.AutoSize = True
+        Me.lbl00.CausesValidation = False
+        Me.lbl00.Location = New System.Drawing.Point(121, 38)
+        Me.lbl00.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.lbl00.Name = "lbl00"
+        Me.lbl00.Size = New System.Drawing.Size(235, 32)
+        Me.lbl00.TabIndex = 14
+        Me.lbl00.Text = "1p Cam -Z Value:"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(2373, 1237)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.grpCamera)
         Me.Controls.Add(Me.txtInfo)
         Me.Controls.Add(Me.lblinfoGN)
         Me.Controls.Add(Me.grpAll)
@@ -2082,8 +1644,8 @@ Partial Class Form1
         Me.grpKnown.PerformLayout()
         Me.grpAll.ResumeLayout(False)
         Me.grpAll.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.grpCamera.ResumeLayout(False)
+        Me.grpCamera.PerformLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -2123,15 +1685,6 @@ Partial Class Form1
     Friend WithEvents txtFileContents As RichTextBox
     Friend WithEvents InfoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents grpKnown As GroupBox
-    Friend WithEvents lbl00 As Label
-    Friend WithEvents lbl01 As Label
-    Friend WithEvents lbl02 As Label
-    Friend WithEvents lbl03 As Label
-    Friend WithEvents lbl04 As Label
-    Friend WithEvents lbl05 As Label
-    Friend WithEvents lbl06 As Label
-    Friend WithEvents lbl07 As Label
-    Friend WithEvents lbl08 As Label
     Friend WithEvents lbl09 As Label
     Friend WithEvents lbl10 As Label
     Friend WithEvents lbl11 As Label
@@ -2145,43 +1698,28 @@ Partial Class Form1
     Friend WithEvents txt11 As TextBox
     Friend WithEvents txt10 As TextBox
     Friend WithEvents txt09 As TextBox
-    Friend WithEvents txt08 As TextBox
-    Friend WithEvents txt06 As TextBox
-    Friend WithEvents txt05 As TextBox
-    Friend WithEvents txt04 As TextBox
-    Friend WithEvents txt03 As TextBox
-    Friend WithEvents txt02 As TextBox
-    Friend WithEvents txt01 As TextBox
-    Friend WithEvents txt00 As TextBox
-    Friend WithEvents txt07 As TextBox
     Friend WithEvents txt37 As TextBox
     Friend WithEvents txt44 As TextBox
     Friend WithEvents txt42 As TextBox
     Friend WithEvents txt43 As TextBox
     Friend WithEvents txt41 As TextBox
-    Friend WithEvents txt40 As TextBox
     Friend WithEvents txt39 As TextBox
     Friend WithEvents txt38 As TextBox
     Friend WithEvents txt36 As TextBox
     Friend WithEvents txt35 As TextBox
     Friend WithEvents txt34 As TextBox
-    Friend WithEvents txt33 As TextBox
-    Friend WithEvents txt32 As TextBox
     Friend WithEvents txt31 As TextBox
     Friend WithEvents txt30 As TextBox
     Friend WithEvents lbl44 As Label
     Friend WithEvents lbl43 As Label
     Friend WithEvents lbl42 As Label
     Friend WithEvents lbl41 As Label
-    Friend WithEvents lbl40 As Label
     Friend WithEvents lbl39 As Label
     Friend WithEvents lbl38 As Label
     Friend WithEvents lbl37 As Label
     Friend WithEvents lbl36 As Label
     Friend WithEvents lbl35 As Label
     Friend WithEvents lbl34 As Label
-    Friend WithEvents lbl33 As Label
-    Friend WithEvents lbl32 As Label
     Friend WithEvents lbl31 As Label
     Friend WithEvents lbl30 As Label
     Friend WithEvents txt52 As TextBox
@@ -2196,7 +1734,6 @@ Partial Class Form1
     Friend WithEvents txt48 As TextBox
     Friend WithEvents txt47 As TextBox
     Friend WithEvents txt46 As TextBox
-    Friend WithEvents txt45 As TextBox
     Friend WithEvents lbl57 As Label
     Friend WithEvents lbl56 As Label
     Friend WithEvents lbl55 As Label
@@ -2209,32 +1746,19 @@ Partial Class Form1
     Friend WithEvents lbl48 As Label
     Friend WithEvents lbl47 As Label
     Friend WithEvents lbl46 As Label
-    Friend WithEvents lbl45 As Label
-    Friend WithEvents txt22 As TextBox
-    Friend WithEvents txt29 As TextBox
     Friend WithEvents txt27 As TextBox
     Friend WithEvents txt28 As TextBox
     Friend WithEvents txt26 As TextBox
-    Friend WithEvents txt25 As TextBox
     Friend WithEvents txt24 As TextBox
-    Friend WithEvents txt23 As TextBox
-    Friend WithEvents txt21 As TextBox
-    Friend WithEvents txt20 As TextBox
     Friend WithEvents txt19 As TextBox
     Friend WithEvents txt18 As TextBox
     Friend WithEvents txt17 As TextBox
     Friend WithEvents txt16 As TextBox
     Friend WithEvents txt15 As TextBox
-    Friend WithEvents lbl29 As Label
     Friend WithEvents lbl28 As Label
     Friend WithEvents lbl27 As Label
     Friend WithEvents lbl26 As Label
-    Friend WithEvents lbl25 As Label
     Friend WithEvents lbl24 As Label
-    Friend WithEvents lbl23 As Label
-    Friend WithEvents lbl22 As Label
-    Friend WithEvents lbl21 As Label
-    Friend WithEvents lbl20 As Label
     Friend WithEvents lbl19 As Label
     Friend WithEvents lbl18 As Label
     Friend WithEvents lbl17 As Label
@@ -2246,27 +1770,27 @@ Partial Class Form1
     Friend WithEvents mnuSource As ToolStripMenuItem
     Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents txtInfo As RichTextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txt45 As TextBox
+    Friend WithEvents txt40 As TextBox
     Friend WithEvents lblSteer45 As Label
     Friend WithEvents lblRoll40 As Label
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents Label10 As Label
+    Friend WithEvents grpCamera As GroupBox
+    Friend WithEvents txt08 As TextBox
+    Friend WithEvents lbl08 As Label
+    Friend WithEvents txt07 As TextBox
+    Friend WithEvents txt06 As TextBox
+    Friend WithEvents txt05 As TextBox
+    Friend WithEvents txt04 As TextBox
+    Friend WithEvents txt03 As TextBox
+    Friend WithEvents txt02 As TextBox
+    Friend WithEvents lbl07 As Label
+    Friend WithEvents lbl06 As Label
+    Friend WithEvents lbl05 As Label
+    Friend WithEvents lbl04 As Label
+    Friend WithEvents lbl03 As Label
+    Friend WithEvents lbl02 As Label
+    Friend WithEvents txt01 As TextBox
+    Friend WithEvents lbl01 As Label
+    Friend WithEvents txt00 As TextBox
+    Friend WithEvents lbl00 As Label
 End Class

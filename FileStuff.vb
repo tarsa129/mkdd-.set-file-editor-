@@ -20,11 +20,11 @@ Public Class FileStuff
     Public Shared Sub ShowFileContents()
         Try
             Dim fs As New FileStream(filename, FileMode.Open, FileAccess.Read) 'make a filestream object using the path
-            Dim TextFile As New StreamReader(fs) 'make a new text file - may not be needed
+            'Dim TextFile As New StreamReader(fs) 'make a new text file - may not be needed
             Form1.txtInfo.Text = Nothing 'clear out any existing data
             Form1.lblLoaded.Text = "Loaded: " & filename 'specify which file is loaded
             Call DataStuff.makeFloatArray(filename) 'get the floats and put them in an array
-            TextFile.Close() 'close the files
+            'TextFile.Close() 'close the files
             fs.Close()
             ObjectStuff.MakeAllUsable()
             Call InfoStuff.fillBox("GN")
